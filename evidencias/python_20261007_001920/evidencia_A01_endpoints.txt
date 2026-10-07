@@ -1,0 +1,7 @@
+OWASP A01:2025 — Evidencia de ejecución real con Python Requests
+Destino: https://www.panificadoranancy.com
+Fecha: 2026-10-07T00:19:20-04:00
+GET anónimo; sin Authorization, Cookie o .netrc; redirecciones desactivadas; TLS validado.
+
+CTRL-01 | / | HTTP ERROR |  |  bytes | Error de transporte; prueba no ejecutada correctamente
+SHA-256: —

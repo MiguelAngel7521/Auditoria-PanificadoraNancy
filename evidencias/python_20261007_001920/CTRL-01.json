@@ -1,0 +1,14 @@
+{
+  "id": "CTRL-01",
+  "endpoint": "/",
+  "url": "https://www.panificadoranancy.com/",
+  "method": "GET",
+  "identity": "Anónimo",
+  "started_at": "2026-10-07T00:19:20-04:00",
+  "redirects_followed": false,
+  "tls_verify": true,
+  "error": "HTTPSConnectionPool(host='www.panificadoranancy.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.panificadoranancy.com', port=443): Failed to resolve 'www.panificadoranancy.com' ([Errno -2] Name or service not known)\"))",
+  "completed_at": "2026-10-07T00:19:20-04:00",
+  "same_as_root_and_nonexistent": false,
+  "classification": "Error de transporte; prueba no ejecutada correctamente"
+}

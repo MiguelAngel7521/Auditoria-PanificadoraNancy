@@ -1,0 +1,214 @@
+- log
+- log
+- banner:
+  - img
+  - link "Star":
+    - link "Star":
+      - /url: https://github.com/Kong/insomnia
+  - link "40,032":
+    - link "40,032":
+      - /url: https://github.com/Kong/insomnia/stargazers
+  - button "Search.. Ctrl + P"
+  - link "Login":
+    - /url: /auth/login
+  - link "Sign up for free":
+    - /url: /auth/login
+- button "Back to all projects"
+- text: Scratch Pad
+- button "SideBar Workspace Actions"
+- searchbox "Projects filter"
+- grid "Project Navigation Tree":
+  - row "CTRL-01 /":
+    - gridcell "Collapse CTRL-01 / GET CTRL-01 / Request Actions":
+      - button "Collapse CTRL-01 /"
+      - text: GET CTRL-01 /
+      - button "Request Actions"
+  - row "CTRL-02 /__a01_control_inexistente_20261007_7e6a12":
+    - gridcell "Collapse CTRL-02 /__a01_control_inexistente_20261007_7e6a12 GET CTRL-02 /__a01_control_inexistente_20261007_7e6a12 Request Actions":
+      - button "Collapse CTRL-02 /__a01_control_inexistente_20261007_7e6a12"
+      - text: GET CTRL-02 /__a01_control_inexistente_20261007_7e6a12
+      - button "Request Actions"
+  - row "A01-01 /pedidos":
+    - gridcell "Collapse A01-01 /pedidos GET A01-01 /pedidos Request Actions":
+      - button "Collapse A01-01 /pedidos"
+      - text: GET A01-01 /pedidos
+      - button "Request Actions"
+  - row "A01-02 /mis-pedidos":
+    - gridcell "Collapse A01-02 /mis-pedidos GET A01-02 /mis-pedidos Request Actions":
+      - button "Collapse A01-02 /mis-pedidos"
+      - text: GET A01-02 /mis-pedidos
+      - button "Request Actions"
+  - row "A01-03 /admin":
+    - gridcell "Collapse A01-03 /admin GET A01-03 /admin Request Actions":
+      - button "Collapse A01-03 /admin"
+      - text: GET A01-03 /admin
+      - button "Request Actions"
+  - row "A01-04 /admin/usuarios":
+    - gridcell "Collapse A01-04 /admin/usuarios GET A01-04 /admin/usuarios Request Actions":
+      - button "Collapse A01-04 /admin/usuarios"
+      - text: GET A01-04 /admin/usuarios
+      - button "Request Actions"
+  - row "A01-05 /admin/clientes":
+    - gridcell "Collapse A01-05 /admin/clientes GET A01-05 /admin/clientes Request Actions":
+      - button "Collapse A01-05 /admin/clientes"
+      - text: GET A01-05 /admin/clientes
+      - button "Request Actions"
+  - row "A01-06 /admin/productos":
+    - gridcell "Collapse A01-06 /admin/productos GET A01-06 /admin/productos Request Actions":
+      - button "Collapse A01-06 /admin/productos"
+      - text: GET A01-06 /admin/productos
+      - button "Request Actions"
+  - row "A01-07 /admin/pedidos":
+    - gridcell "Collapse A01-07 /admin/pedidos GET A01-07 /admin/pedidos Request Actions":
+      - button "Collapse A01-07 /admin/pedidos"
+      - text: GET A01-07 /admin/pedidos
+      - button "Request Actions"
+  - row "A01-08 /admin/categorias":
+    - gridcell "Collapse A01-08 /admin/categorias GET A01-08 /admin/categorias Request Actions":
+      - button "Collapse A01-08 /admin/categorias"
+      - text: GET A01-08 /admin/categorias
+      - button "Request Actions"
+  - row "A01-09 /inventario" [selected]:
+    - gridcell "Collapse A01-09 /inventario GET A01-09 /inventario Request Actions":
+      - button "Collapse A01-09 /inventario"
+      - text: GET A01-09 /inventario
+      - button "Request Actions"
+  - row "A01-10 /inventario/materias-primas":
+    - gridcell "Collapse A01-10 /inventario/materias-primas GET A01-10 /inventario/materias-primas Request Actions":
+      - button "Collapse A01-10 /inventario/materias-primas"
+      - text: GET A01-10 /inventario/materias-primas
+      - button "Request Actions"
+  - row "A01-11 /inventario/producciones":
+    - gridcell "Collapse A01-11 /inventario/producciones GET A01-11 /inventario/producciones Request Actions":
+      - button "Collapse A01-11 /inventario/producciones"
+      - text: GET A01-11 /inventario/producciones
+      - button "Request Actions"
+  - row "A01-12 /inventario/movimientos-caja":
+    - gridcell "Collapse A01-12 /inventario/movimientos-caja GET A01-12 /inventario/movimientos-caja Request Actions":
+      - button "Collapse A01-12 /inventario/movimientos-caja"
+      - text: GET A01-12 /inventario/movimientos-caja
+      - button "Request Actions"
+  - row "A01-13 /user":
+    - gridcell "Collapse A01-13 /user GET A01-13 /user Request Actions":
+      - button "Collapse A01-13 /user"
+      - text: GET A01-13 /user
+      - button "Request Actions"
+  - row "A01-14 /me":
+    - gridcell "Collapse A01-14 /me GET A01-14 /me Request Actions":
+      - button "Collapse A01-14 /me"
+      - text: GET A01-14 /me
+      - button "Request Actions"
+  - row "A01-15 /profile":
+    - gridcell "Collapse A01-15 /profile GET A01-15 /profile Request Actions":
+      - button "Collapse A01-15 /profile"
+      - text: GET A01-15 /profile
+      - button "Request Actions"
+- heading "Unlock full features" [level=3]
+- button "Dismiss tutorial"
+- paragraph: Create multiple API collections, MCP clients, manage projects, and collaborate with your team.
+- button "Sign up for free"
+- grid "Scope filter":
+  - row "API Collections":
+    - gridcell "API Collections"
+  - row "MCP Clients":
+    - gridcell "MCP Clients"
+  - row "Mocks":
+    - gridcell "Mocks"
+  - row "Environments":
+    - gridcell "Environments"
+- separator
+- button
+- grid "Insomnia Tabs":
+  - row "tab-A01-02 /mis-pedidos":
+    - gridcell "Tab Tag A01-02 /mis-pedidos Close Tab":
+      - text: GET A01-02 /mis-pedidos
+      - button "Close Tab"
+  - row "tab-CTRL-01 /":
+    - gridcell "Tab Tag CTRL-01 / Close Tab":
+      - text: GET CTRL-01 /
+      - button "Close Tab"
+  - row "tab-CTRL-02 /__a01_control_inexistente_20261007_7e6a12":
+    - gridcell "Tab Tag CTRL-02 /__a01_control_inexistente_20261007_7e6a12 Close Tab":
+      - text: GET CTRL-02 /__a01_control_inexistente_20261007_7e6a12
+      - button "Close Tab"
+  - row "tab-A01-01 /pedidos":
+    - gridcell "Tab Tag A01-01 /pedidos Close Tab":
+      - text: GET A01-01 /pedidos
+      - button "Close Tab"
+  - row "tab-A01-03 /admin":
+    - gridcell "Tab Tag A01-03 /admin Close Tab":
+      - text: GET A01-03 /admin
+      - button "Close Tab"
+  - row "tab-A01-04 /admin/usuarios":
+    - gridcell "Tab Tag A01-04 /admin/usuarios Close Tab":
+      - text: GET A01-04 /admin/usuarios
+      - button "Close Tab"
+  - row "tab-A01-05 /admin/clientes":
+    - gridcell "Tab Tag A01-05 /admin/clientes Close Tab":
+      - text: GET A01-05 /admin/clientes
+      - button "Close Tab"
+  - row "tab-A01-06 /admin/productos":
+    - gridcell "Tab Tag A01-06 /admin/productos Close Tab":
+      - text: GET A01-06 /admin/productos
+      - button "Close Tab"
+  - row "tab-A01-07 /admin/pedidos":
+    - gridcell "Tab Tag A01-07 /admin/pedidos Close Tab":
+      - text: GET A01-07 /admin/pedidos
+      - button "Close Tab"
+  - row "tab-A01-08 /admin/categorias":
+    - gridcell "Tab Tag A01-08 /admin/categorias Close Tab":
+      - text: GET A01-08 /admin/categorias
+      - button "Close Tab"
+  - row "tab-A01-09 /inventario" [selected]:
+    - gridcell "Tab Tag A01-09 /inventario Close Tab":
+      - text: GET A01-09 /inventario
+      - button "Close Tab"
+- button [disabled]
+- button "Tab Plus"
+- list "Breadcrumbs":
+  - listitem:
+    - link "Scratch Pad":
+      - /url: /organization/org_scratchpad/project/proj_scratchpad/workspace/wrk_scratchpad/debug
+  - listitem: GET A01-09 /inventario
+- button "Select an API Collection Environment": Base Environment
+- button "Add Cookies": Cookies
+- button "Add Certificates": Certificates
+- button "Request Method": GET 
+- textbox
+- text: https://www.panificadoranancy.com/inventario
+- button "Send"
+- button ""
+- tablist "Request pane tabs":
+  - tab "Params"
+  - tab "Body"
+  - tab "Auth" [selected]
+  - tab "Headers 5"
+  - tab "Scripts"
+  - tab "Docs"
+- tabpanel "Auth":
+  - toolbar:
+    - button "Inherit from parent Change Authentication type": Inherit from parent
+  - paragraph:  Select an auth type from above
+- separator
+- strong: "200"
+- text: OK 234 ms 7.4 KB
+- button "Just Now "
+- tablist "Request pane tabs":
+  - tab "Preview" [selected]
+  - tab "Headers 16"
+  - tab "Cookies"
+  - tab "Tests4 / 4"
+  - tab "→ Mock"
+  - tab "Console"
+- tabpanel "Preview":
+  - toolbar:
+    - button "Source "
+  - textbox
+  - text: "<!doctype html> <html lang=\"es\"> <head> <meta charset=\"UTF-8\" /> <!-- Favicon y App Icons --> <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\" /> <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\" /> <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-touch-icon.png\" /> <link rel=\"manifest\" href=\"/site.webmanifest\" /> <meta name=\"theme-color\" content=\"#D2691E\" /> <!-- Viewport y Mobile Optimization --> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=5.0\" /> <meta name=\"mobile-web-app-capable\" content=\"yes\" /> <meta name=\"apple-mobile-web-app-capable\" content=\"yes\" /> <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black-translucent\" /> <!-- Primary Meta Tags --> <title>Panificadora Nancy - Pan Artesanal Fresco | Pedidos Online</title> <meta name=\"title\" content=\"Panificadora Nancy - Pan Artesanal Fresco | Pedidos Online\" /> <meta name=\"description\" content=\"Panificadora Nancy ofrece pan artesanal recién horneado, bizcochos, tortas y más. Realiza tu pedido online y recíbelo el mismo día. Calidad garantizada desde 1995.\" /> <meta name=\"keywords\" content=\"panificadora, panadería, pan artesanal, pan fresco, bizcochos, tortas, pedidos online, delivery, nancy, pan casero, repostería\" /> <meta name=\"author\" content=\"Panificadora Nancy\" /> <meta name=\"robots\" content=\"index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1\" /> <meta name=\"googlebot\" content=\"index, follow\" /> <!-- Canonical URL --> <link rel=\"canonical\" href=\"https://www.panificadoranancy.com\" /> <!-- Open Graph / Facebook --> <meta property=\"og:type\" content=\"website\" /> <meta property=\"og:url\" content=\"https://www.panificadoranancy.com\" /> <meta property=\"og:title\" content=\"Panificadora Nancy - Pan Artesanal Fresco | Pedidos Online\" /> <meta property=\"og:description\" content=\"Pan artesanal recién horneado todos los días. Realiza tu pedido online y recíbelo el mismo día. Calidad garantizada desde 1995.\" /> <meta property=\"og:image\" content=\"https://www.panificadoranancy.com/og-image.jpg\" /> <meta property=\"og:image:width\" content=\"1200\" /> <meta property=\"og:image:height\" content=\"630\" /> <meta property=\"og:locale\" content=\"es_BO\" /> <meta property=\"og:site_name\" content=\"Panificadora Nancy\" /> <!-- Twitter --> <meta name=\"twitter:card\" content=\"summary_large_image\" /> <meta name=\"twitter:url\" content=\"https://www.panificadoranancy.com\" /> <meta name=\"twitter:title\" content=\"Panificadora Nancy - Pan Artesanal Fresco\" /> <meta name=\"twitter:description\" content=\"Pan artesanal recién horneado. Pedidos online con entrega el mismo día.\" /> <meta name=\"twitter:image\" content=\"https://www.panificadoranancy.com/twitter-image.jpg\" /> <!-- Geo Location --> <meta name=\"geo.region\" content=\"BO\" /> <meta name=\"geo.placename\" content=\"Bolivia\" /> <meta name=\"geo.position\" content=\"-17.7833;-63.1821\" /> <meta name=\"ICBM\" content=\"-17.7833, -63.1821\" /> <!-- Business Info --> <meta name=\"contact\" content=\"info@panificadoranancy.com\" /> <meta name=\"coverage\" content=\"Worldwide\" /> <meta name=\"distribution\" content=\"Global\" /> <meta name=\"rating\" content=\"General\" /> <!-- Preconnect to External Resources --> <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" /> <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin /> <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;600;700&display=swap\" /> <!-- Imagen principal de la portada: se pide junto con el JS en vez de esperar a React --> <link rel=\"preload\" as=\"image\" type=\"image/webp\" href=\"/images/cabecera-800.webp\" media=\"(max-width: 767.98px)\" fetchpriority=\"high\" /> <link rel=\"preload\" as=\"image\" type=\"image/webp\" href=\"/images/cabecera-1600.webp\" media=\"(min-width: 768px)\" fetchpriority=\"high\" /> <!-- DNS Prefetch --> <link rel=\"dns-prefetch\" href=\"//fonts.googleapis.com\" /> <link rel=\"dns-prefetch\" href=\"//www.google-analytics.com\" /> <!-- Structured Data - Organization -->"
+- button [pressed]:
+  - img
+- button "Preferences"
+- button "online"
+- link "Made with by Kong":
+  - link "Made with by Kong":
+    - /url: https://konghq.com/

@@ -1,0 +1,53 @@
+{"value":"log: warning: No environment is selected, modification of insomnia.environment will be applied to the base environment.","name":"Text","timestamp":1791347122121}
+
+{"value":"warn: The URL contains tags or no matched certificate found, insomnia.request.certificate is initialized as an empty certificate.","name":"Text","timestamp":1791347122121}
+{"value":"Preparing request to https://www.panificadoranancy.com/pedidos","name":"Text","timestamp":1791347122125}
+{"value":"Current time is 2026-10-07T04:25:22.125Z","name":"Text","timestamp":1791347122125}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1791347122125}
+{"value":"Disable cookie sending due to user setting","name":"Text","timestamp":1791347122125}
+{"value":"Using default HTTP version","name":"Text","timestamp":1791347122126}
+{"value":"Enable timeout of 30000ms","name":"Text","timestamp":1791347122126}
+{"value":"Enable SSL validation","name":"Text","timestamp":1791347122126}
+{"name":"Text","value":"Found bundle for host: 0x2c6c0b12cc40 [can multiplex]\n","timestamp":1791347122126}
+{"name":"Text","value":"Re-using existing connection #1 with host www.panificadoranancy.com\n","timestamp":1791347122126}
+{"name":"Text","value":"Connected to www.panificadoranancy.com (2a02:4780:13:1179:0:1269:759f:2) port 443 (#1)\n","timestamp":1791347122126}
+{"name":"Text","value":"h2h3 [:method: GET]\n","timestamp":1791347122127}
+{"name":"Text","value":"h2h3 [:path: /pedidos]\n","timestamp":1791347122127}
+{"name":"Text","value":"h2h3 [:scheme: https]\n","timestamp":1791347122127}
+{"name":"Text","value":"h2h3 [:authority: www.panificadoranancy.com]\n","timestamp":1791347122127}
+{"name":"Text","value":"h2h3 [user-agent: insomnia/13.3.0]\n","timestamp":1791347122127}
+{"name":"Text","value":"h2h3 [accept: */*]\n","timestamp":1791347122127}
+{"name":"Text","value":"h2h3 [accept-encoding: identity]\n","timestamp":1791347122127}
+{"name":"Text","value":"h2h3 [content-length: 0]\n","timestamp":1791347122127}
+{"name":"Text","value":"Using Stream ID: 5 (easy handle 0x2c6c0c4a9600)\n","timestamp":1791347122127}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1791347122127}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1791347122127}
+{"name":"HeaderOut","value":"GET /pedidos HTTP/2\r\nHost: www.panificadoranancy.com\r\nuser-agent: insomnia/13.3.0\r\naccept: */*\r\naccept-encoding: identity\r\ncontent-length: 0\r\n\r\n","timestamp":1791347122127}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1791347122321}
+{"name":"HeaderIn","value":"HTTP/2 200 \r\n","timestamp":1791347122321}
+{"name":"HeaderIn","value":"content-type: text/html\r\n","timestamp":1791347122321}
+{"name":"HeaderIn","value":"last-modified: Tue, 06 Oct 2026 19:04:19 GMT\r\n","timestamp":1791347122321}
+{"name":"HeaderIn","value":"etag: \"1d75-6ac54633-28be929c8a906383;;;\"\r\n","timestamp":1791347122321}
+{"name":"HeaderIn","value":"accept-ranges: bytes\r\n","timestamp":1791347122321}
+{"name":"HeaderIn","value":"content-length: 7541\r\n","timestamp":1791347122321}
+{"name":"HeaderIn","value":"date: Wed, 07 Oct 2026 04:25:22 GMT\r\n","timestamp":1791347122321}
+{"name":"HeaderIn","value":"server: LiteSpeed\r\n","timestamp":1791347122321}
+{"name":"HeaderIn","value":"platform: hostinger\r\n","timestamp":1791347122321}
+{"name":"HeaderIn","value":"panel: hpanel\r\n","timestamp":1791347122321}
+{"name":"HeaderIn","value":"content-security-policy: default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob: https:; connect-src 'self'; frame-src https://www.google.com; frame-ancestors 'self'; base-uri 'self'; form-action 'self'; object-src 'none'; upgrade-insecure-requests\r\n","timestamp":1791347122321}
+{"name":"HeaderIn","value":"x-content-type-options: nosniff\r\n","timestamp":1791347122321}
+{"name":"HeaderIn","value":"x-frame-options: SAMEORIGIN\r\n","timestamp":1791347122321}
+{"name":"HeaderIn","value":"referrer-policy: strict-origin-when-cross-origin\r\n","timestamp":1791347122321}
+{"name":"HeaderIn","value":"permissions-policy: camera=(), microphone=(), payment=(), geolocation=(self)\r\n","timestamp":1791347122321}
+{"name":"HeaderIn","value":"strict-transport-security: max-age=31536000\r\n","timestamp":1791347122321}
+{"name":"HeaderIn","value":"cache-control: no-cache\r\n","timestamp":1791347122321}
+{"name":"HeaderIn","value":"\r\n","timestamp":1791347122321}
+{"name":"Text","value":"Received 1310 B chunk","timestamp":1791347122321}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1791347122321}
+{"name":"Text","value":"Received 6.1 KB chunk","timestamp":1791347122347}
+{"name":"Text","value":"Connection #1 to host www.panificadoranancy.com left intact\n","timestamp":1791347122347}
+{"value":"log: warning: No environment is selected, modification of insomnia.environment will be applied to the base environment.","name":"Text","timestamp":1791347122351}
+
+{"value":"warn: The URL contains tags or no matched certificate found, insomnia.request.certificate is initialized as an empty certificate.","name":"Text","timestamp":1791347122351}
+
+{"value":"log: A01 EVIDENCIA {\"fecha\":\"2026-10-07T04:25:22.354Z\",\"status\":200,\"contentType\":\"text/html\",\"caracteres\":7526,\"html\":true,\"sha256\":\"190646cf684af636c9eac7ea7ffbf2c76986f1d689146c6ff7fd15d8866584a7\",\"result\":\"HTML: comparar con controles; no concluyente para A01\"}","name":"Text","timestamp":1791347122354}

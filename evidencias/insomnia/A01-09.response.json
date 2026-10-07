@@ -1,0 +1,116 @@
+{
+  "_id": "res_17dc56b19f9442418cdfa02d8198b108",
+  "type": "Response",
+  "parentId": "req_5befe6c90830460fbdee1345038c5ef9",
+  "modified": 1791347189568,
+  "created": 1791347189568,
+  "statusCode": 200,
+  "statusMessage": "",
+  "httpVersion": "HTTP/2",
+  "contentType": "text/html",
+  "url": "https://www.panificadoranancy.com/inventario",
+  "bytesRead": 7541,
+  "bytesContent": 7541,
+  "elapsedTime": 220.54999999999998,
+  "headers": [
+    {
+      "name": "content-type",
+      "value": "text/html"
+    },
+    {
+      "name": "last-modified",
+      "value": "Tue, 06 Oct 2026 19:04:19 GMT"
+    },
+    {
+      "name": "etag",
+      "value": "\"1d75-6ac54633-28be929c8a906383;;;\""
+    },
+    {
+      "name": "accept-ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "content-length",
+      "value": "7541"
+    },
+    {
+      "name": "date",
+      "value": "Wed, 07 Oct 2026 04:26:29 GMT"
+    },
+    {
+      "name": "server",
+      "value": "LiteSpeed"
+    },
+    {
+      "name": "platform",
+      "value": "hostinger"
+    },
+    {
+      "name": "panel",
+      "value": "hpanel"
+    },
+    {
+      "name": "content-security-policy",
+      "value": "default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob: https:; connect-src 'self'; frame-src https://www.google.com; frame-ancestors 'self'; base-uri 'self'; form-action 'self'; object-src 'none'; upgrade-insecure-requests"
+    },
+    {
+      "name": "x-content-type-options",
+      "value": "nosniff"
+    },
+    {
+      "name": "x-frame-options",
+      "value": "SAMEORIGIN"
+    },
+    {
+      "name": "referrer-policy",
+      "value": "strict-origin-when-cross-origin"
+    },
+    {
+      "name": "permissions-policy",
+      "value": "camera=(), microphone=(), payment=(), geolocation=(self)"
+    },
+    {
+      "name": "strict-transport-security",
+      "value": "max-age=31536000"
+    },
+    {
+      "name": "cache-control",
+      "value": "no-cache"
+    }
+  ],
+  "timelinePath": "/home/angel77/Universidad/02_2026/Ingenieria de Sistema/AUDITORÍA DE SISTEMAS/Auditoria-panificadoraNancy/.insomnia-a01/responses/res_17dc56b19f9442418cdfa02d8198b108.timeline",
+  "bodyPath": "/home/angel77/Universidad/02_2026/Ingenieria de Sistema/AUDITORÍA DE SISTEMAS/Auditoria-panificadoraNancy/.insomnia-a01/responses/ba47ef61-ed48-42dc-93ac-eda950645650.response",
+  "bodyCompression": null,
+  "error": "",
+  "requestVersionId": "rvr_3f6b5a2badb24015b461743dbbe4f0bf",
+  "settingStoreCookies": false,
+  "settingSendCookies": false,
+  "environmentId": "env_99d30891da4bdcebc63947a8fc17f076de878684",
+  "requestTestResults": [
+    {
+      "testCase": "Instrumentacion: estado HTTP final valido (no certifica A01)",
+      "status": "passed",
+      "executionTime": 0.09999999962747097,
+      "category": "after-response"
+    },
+    {
+      "testCase": "Instrumentacion: Content-Type recibido",
+      "status": "passed",
+      "executionTime": 0.09999999962747097,
+      "category": "after-response"
+    },
+    {
+      "testCase": "Instrumentacion: cuerpo recibido y huella SHA-256 calculada",
+      "status": "passed",
+      "executionTime": 0.09999999962747097,
+      "category": "after-response"
+    },
+    {
+      "testCase": "Observacion: HTML: comparar con controles; no concluyente para A01",
+      "status": "passed",
+      "executionTime": 0,
+      "category": "after-response"
+    }
+  ],
+  "globalEnvironmentId": null
+}

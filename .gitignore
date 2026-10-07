@@ -1,0 +1,10 @@
+# Entornos y datos locales de la aplicación
+.venv/
+.insomnia-a01/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+
+# Documento preexistente de otro sistema, no generado en esta auditoría
+/Informe de Prueba_ Control de Acceso Basado en Roles.docx

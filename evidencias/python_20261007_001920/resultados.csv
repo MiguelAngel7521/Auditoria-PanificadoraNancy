@@ -1,0 +1,2 @@
+id,endpoint,method,identity,status,content_type,body_bytes,sha256,same_as_root_and_nonexistent,classification,started_at
+CTRL-01,/,GET,Anónimo,,,,,False,Error de transporte; prueba no ejecutada correctamente,2026-10-07T00:19:20-04:00

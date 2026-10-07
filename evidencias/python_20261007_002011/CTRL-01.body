@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <!-- Favicon y App Icons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#D2691E" />
+    
+    <!-- Viewport y Mobile Optimization -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Panificadora Nancy - Pan Artesanal Fresco | Pedidos Online</title>
+    <meta name="title" content="Panificadora Nancy - Pan Artesanal Fresco | Pedidos Online" />
+    <meta name="description" content="Panificadora Nancy ofrece pan artesanal recién horneado, bizcochos, tortas y más. Realiza tu pedido online y recíbelo el mismo día. Calidad garantizada desde 1995." />
+    <meta name="keywords" content="panificadora, panadería, pan artesanal, pan fresco, bizcochos, tortas, pedidos online, delivery, nancy, pan casero, repostería" />
+    <meta name="author" content="Panificadora Nancy" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.panificadoranancy.com" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.panificadoranancy.com" />
+    <meta property="og:title" content="Panificadora Nancy - Pan Artesanal Fresco | Pedidos Online" />
+    <meta property="og:description" content="Pan artesanal recién horneado todos los días. Realiza tu pedido online y recíbelo el mismo día. Calidad garantizada desde 1995." />
+    <meta property="og:image" content="https://www.panificadoranancy.com/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="es_BO" />
+    <meta property="og:site_name" content="Panificadora Nancy" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://www.panificadoranancy.com" />
+    <meta name="twitter:title" content="Panificadora Nancy - Pan Artesanal Fresco" />
+    <meta name="twitter:description" content="Pan artesanal recién horneado. Pedidos online con entrega el mismo día." />
+    <meta name="twitter:image" content="https://www.panificadoranancy.com/twitter-image.jpg" />
+    
+    <!-- Geo Location -->
+    <meta name="geo.region" content="BO" />
+    <meta name="geo.placename" content="Bolivia" />
+    <meta name="geo.position" content="-17.7833;-63.1821" />
+    <meta name="ICBM" content="-17.7833, -63.1821" />
+    
+    <!-- Business Info -->
+    <meta name="contact" content="info@panificadoranancy.com" />
+    <meta name="coverage" content="Worldwide" />
+    <meta name="distribution" content="Global" />
+    <meta name="rating" content="General" />
+    
+    <!-- Preconnect to External Resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;600;700&display=swap" />
+    <!-- Imagen principal de la portada: se pide junto con el JS en vez de esperar a React -->
+    <link rel="preload" as="image" type="image/webp" href="/images/cabecera-800.webp" media="(max-width: 767.98px)" fetchpriority="high" />
+    <link rel="preload" as="image" type="image/webp" href="/images/cabecera-1600.webp" media="(min-width: 768px)" fetchpriority="high" />
+    
+    <!-- DNS Prefetch -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="//www.google-analytics.com" />
+    
+    <!-- Structured Data - Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Bakery",
+      "name": "Panificadora Nancy",
+      "image": "https://www.panificadoranancy.com/logo.png",
+      "url": "https://www.panificadoranancy.com",
+      "telephone": "+591-XXXXXXXX",
+      "email": "info@panificadoranancy.com",
+      "priceRange": "Bs",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Dirección de la panificadora",
+        "addressLocality": "Ciudad",
+        "addressRegion": "Departamento",
+        "postalCode": "00000",
+        "addressCountry": "BO"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -17.7833,
+        "longitude": -63.1821
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "06:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Saturday", "Sunday"],
+          "opens": "07:00",
+          "closes": "18:00"
+        }
+      ],
+      "servesCuisine": "Panadería, Repostería",
+      "acceptsReservations": "True",
+      "hasMenu": "https://www.panificadoranancy.com/productos",
+      "founder": "Nancy",
+      "foundingDate": "1995",
+      "slogan": "Pan fresco, sabor de casa"
+    }
+    </script>
+    
+    <!-- Structured Data - Product List -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Productos de Panificadora Nancy",
+      "description": "Variedad de panes artesanales, bizcochos y tortas",
+      "url": "https://www.panificadoranancy.com/productos"
+    }
+    </script>
+    
+    <!-- Performance Optimization: removed explicit preloads to avoid preload warnings in dev server
+      Vite/dev server handles module loading and modulepreload automatically. -->
+    
+    <!-- Google Analytics (placeholder) -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script> -->
+    
+    <script type="module" crossorigin src="/assets/index-61038714.js"></script>
+    <link rel="stylesheet" href="/assets/index-f12cd213.css">
+  </head>
+  <body>
+    <!-- Structured Data - BreadcrumbList (will be updated by React) -->
+    <script type="application/ld+json" id="breadcrumb-schema">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Inicio",
+        "item": "https://www.panificadoranancy.com"
+      }]
+    }
+    </script>
+    
+    <!-- No Script Fallback -->
+    <noscript>
+      <div style="padding: 20px; text-align: center; background: #f8f9fa;">
+        <h1>Panificadora Nancy</h1>
+        <p>Para una mejor experiencia, por favor habilita JavaScript en tu navegador.</p>
+        <p>Contacto: info@panificadoranancy.com | Tel: +591-XXXXXXXX</p>
+      </div>
+    </noscript>
+    
+    <div id="root"></div>
+    
+    <!-- Chart.js from CDN (client-side rendering) -->
+  </body>
+</html>

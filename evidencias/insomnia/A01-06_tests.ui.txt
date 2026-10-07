@@ -1,0 +1,207 @@
+- log
+- log
+- banner:
+  - img
+  - link "Star":
+    - link "Star":
+      - /url: https://github.com/Kong/insomnia
+  - link "40,032":
+    - link "40,032":
+      - /url: https://github.com/Kong/insomnia/stargazers
+  - button "Search.. Ctrl + P"
+  - link "Login":
+    - /url: /auth/login
+  - link "Sign up for free":
+    - /url: /auth/login
+- button "Back to all projects"
+- text: Scratch Pad
+- button "SideBar Workspace Actions"
+- searchbox "Projects filter"
+- grid "Project Navigation Tree":
+  - row "CTRL-01 /":
+    - gridcell "Collapse CTRL-01 / GET CTRL-01 / Request Actions":
+      - button "Collapse CTRL-01 /"
+      - text: GET CTRL-01 /
+      - button "Request Actions"
+  - row "CTRL-02 /__a01_control_inexistente_20261007_7e6a12":
+    - gridcell "Collapse CTRL-02 /__a01_control_inexistente_20261007_7e6a12 GET CTRL-02 /__a01_control_inexistente_20261007_7e6a12 Request Actions":
+      - button "Collapse CTRL-02 /__a01_control_inexistente_20261007_7e6a12"
+      - text: GET CTRL-02 /__a01_control_inexistente_20261007_7e6a12
+      - button "Request Actions"
+  - row "A01-01 /pedidos":
+    - gridcell "Collapse A01-01 /pedidos GET A01-01 /pedidos Request Actions":
+      - button "Collapse A01-01 /pedidos"
+      - text: GET A01-01 /pedidos
+      - button "Request Actions"
+  - row "A01-02 /mis-pedidos":
+    - gridcell "Collapse A01-02 /mis-pedidos GET A01-02 /mis-pedidos Request Actions":
+      - button "Collapse A01-02 /mis-pedidos"
+      - text: GET A01-02 /mis-pedidos
+      - button "Request Actions"
+  - row "A01-03 /admin":
+    - gridcell "Collapse A01-03 /admin GET A01-03 /admin Request Actions":
+      - button "Collapse A01-03 /admin"
+      - text: GET A01-03 /admin
+      - button "Request Actions"
+  - row "A01-04 /admin/usuarios":
+    - gridcell "Collapse A01-04 /admin/usuarios GET A01-04 /admin/usuarios Request Actions":
+      - button "Collapse A01-04 /admin/usuarios"
+      - text: GET A01-04 /admin/usuarios
+      - button "Request Actions"
+  - row "A01-05 /admin/clientes":
+    - gridcell "Collapse A01-05 /admin/clientes GET A01-05 /admin/clientes Request Actions":
+      - button "Collapse A01-05 /admin/clientes"
+      - text: GET A01-05 /admin/clientes
+      - button "Request Actions"
+  - row "A01-06 /admin/productos" [selected]:
+    - gridcell "Collapse A01-06 /admin/productos GET A01-06 /admin/productos Request Actions":
+      - button "Collapse A01-06 /admin/productos"
+      - text: GET A01-06 /admin/productos
+      - button "Request Actions"
+  - row "A01-07 /admin/pedidos":
+    - gridcell "Collapse A01-07 /admin/pedidos GET A01-07 /admin/pedidos Request Actions":
+      - button "Collapse A01-07 /admin/pedidos"
+      - text: GET A01-07 /admin/pedidos
+      - button "Request Actions"
+  - row "A01-08 /admin/categorias":
+    - gridcell "Collapse A01-08 /admin/categorias GET A01-08 /admin/categorias Request Actions":
+      - button "Collapse A01-08 /admin/categorias"
+      - text: GET A01-08 /admin/categorias
+      - button "Request Actions"
+  - row "A01-09 /inventario":
+    - gridcell "Collapse A01-09 /inventario GET A01-09 /inventario Request Actions":
+      - button "Collapse A01-09 /inventario"
+      - text: GET A01-09 /inventario
+      - button "Request Actions"
+  - row "A01-10 /inventario/materias-primas":
+    - gridcell "Collapse A01-10 /inventario/materias-primas GET A01-10 /inventario/materias-primas Request Actions":
+      - button "Collapse A01-10 /inventario/materias-primas"
+      - text: GET A01-10 /inventario/materias-primas
+      - button "Request Actions"
+  - row "A01-11 /inventario/producciones":
+    - gridcell "Collapse A01-11 /inventario/producciones GET A01-11 /inventario/producciones Request Actions":
+      - button "Collapse A01-11 /inventario/producciones"
+      - text: GET A01-11 /inventario/producciones
+      - button "Request Actions"
+  - row "A01-12 /inventario/movimientos-caja":
+    - gridcell "Collapse A01-12 /inventario/movimientos-caja GET A01-12 /inventario/movimientos-caja Request Actions":
+      - button "Collapse A01-12 /inventario/movimientos-caja"
+      - text: GET A01-12 /inventario/movimientos-caja
+      - button "Request Actions"
+  - row "A01-13 /user":
+    - gridcell "Collapse A01-13 /user GET A01-13 /user Request Actions":
+      - button "Collapse A01-13 /user"
+      - text: GET A01-13 /user
+      - button "Request Actions"
+  - row "A01-14 /me":
+    - gridcell "Collapse A01-14 /me GET A01-14 /me Request Actions":
+      - button "Collapse A01-14 /me"
+      - text: GET A01-14 /me
+      - button "Request Actions"
+  - row "A01-15 /profile":
+    - gridcell "Collapse A01-15 /profile GET A01-15 /profile Request Actions":
+      - button "Collapse A01-15 /profile"
+      - text: GET A01-15 /profile
+      - button "Request Actions"
+- heading "Unlock full features" [level=3]
+- button "Dismiss tutorial"
+- paragraph: Create multiple API collections, MCP clients, manage projects, and collaborate with your team.
+- button "Sign up for free"
+- grid "Scope filter":
+  - row "API Collections":
+    - gridcell "API Collections"
+  - row "MCP Clients":
+    - gridcell "MCP Clients"
+  - row "Mocks":
+    - gridcell "Mocks"
+  - row "Environments":
+    - gridcell "Environments"
+- separator
+- button
+- grid "Insomnia Tabs":
+  - row "tab-A01-02 /mis-pedidos":
+    - gridcell "Tab Tag A01-02 /mis-pedidos Close Tab":
+      - text: GET A01-02 /mis-pedidos
+      - button "Close Tab"
+  - row "tab-CTRL-01 /":
+    - gridcell "Tab Tag CTRL-01 / Close Tab":
+      - text: GET CTRL-01 /
+      - button "Close Tab"
+  - row "tab-CTRL-02 /__a01_control_inexistente_20261007_7e6a12":
+    - gridcell "Tab Tag CTRL-02 /__a01_control_inexistente_20261007_7e6a12 Close Tab":
+      - text: GET CTRL-02 /__a01_control_inexistente_20261007_7e6a12
+      - button "Close Tab"
+  - row "tab-A01-01 /pedidos":
+    - gridcell "Tab Tag A01-01 /pedidos Close Tab":
+      - text: GET A01-01 /pedidos
+      - button "Close Tab"
+  - row "tab-A01-03 /admin":
+    - gridcell "Tab Tag A01-03 /admin Close Tab":
+      - text: GET A01-03 /admin
+      - button "Close Tab"
+  - row "tab-A01-04 /admin/usuarios":
+    - gridcell "Tab Tag A01-04 /admin/usuarios Close Tab":
+      - text: GET A01-04 /admin/usuarios
+      - button "Close Tab"
+  - row "tab-A01-05 /admin/clientes":
+    - gridcell "Tab Tag A01-05 /admin/clientes Close Tab":
+      - text: GET A01-05 /admin/clientes
+      - button "Close Tab"
+  - row "tab-A01-06 /admin/productos" [selected]:
+    - gridcell "Tab Tag A01-06 /admin/productos Close Tab":
+      - text: GET A01-06 /admin/productos
+      - button "Close Tab"
+- button [disabled]
+- button "Tab Plus"
+- list "Breadcrumbs":
+  - listitem:
+    - link "Scratch Pad":
+      - /url: /organization/org_scratchpad/project/proj_scratchpad/workspace/wrk_scratchpad/debug
+  - listitem: GET A01-06 /admin/productos
+- button "Select an API Collection Environment": Base Environment
+- button "Add Cookies": Cookies
+- button "Add Certificates": Certificates
+- button "Request Method": GET 
+- textbox
+- text: https://www.panificadoranancy.com/admin/productos
+- button "Send"
+- button ""
+- tablist "Request pane tabs":
+  - tab "Params"
+  - tab "Body"
+  - tab "Auth" [selected]
+  - tab "Headers 5"
+  - tab "Scripts"
+  - tab "Docs"
+- tabpanel "Auth":
+  - toolbar:
+    - button "Inherit from parent Change Authentication type": Inherit from parent
+  - paragraph:  Select an auth type from above
+- separator
+- strong: "200"
+- text: OK 235 ms 7.4 KB
+- button "Just Now "
+- tablist "Request pane tabs":
+  - tab "Preview"
+  - tab "Headers 16"
+  - tab "Cookies"
+  - tab "Tests4 / 4" [selected]
+  - tab "→ Mock"
+  - tab "Console"
+- tabpanel "Tests4 / 4":
+  - toolbar:
+    - button "All"
+    - button "Passed"
+    - button "Failed"
+    - button "Skipped"
+  - text: "PASS Instrumentacion: estado HTTP final valido (no certifica A01) After-response Test (0.1 ms) PASS Instrumentacion: Content-Type recibido After-response Test (0.1 ms) PASS Instrumentacion: cuerpo recibido y huella SHA-256 calculada After-response Test (0.1 ms) PASS Observacion: HTML: comparar con controles; no concluyente para A01 After-response Test (< 0.1 ms)"
+  - toolbar:
+    - textbox "Filter test results":
+      - /placeholder: Filter test results with name
+- button [pressed]:
+  - img
+- button "Preferences"
+- button "online"
+- link "Made with by Kong":
+  - link "Made with by Kong":
+    - /url: https://konghq.com/

@@ -1,0 +1,36 @@
+{
+  "_id": "req_2b8370587969478eb0296812d9e971e1",
+  "type": "Request",
+  "parentId": "wrk_scratchpad",
+  "modified": 1791346760715,
+  "created": 1791346760715,
+  "url": "https://www.panificadoranancy.com/admin/pedidos",
+  "name": "A01-07 /admin/pedidos",
+  "description": "GET anonimo. Sin cookies, Authorization ni redirecciones. El HTTP 200 HTML no confirma acceso a datos.",
+  "method": "GET",
+  "body": {},
+  "parameters": [],
+  "headers": [
+    {
+      "name": "Accept",
+      "value": "*/*"
+    },
+    {
+      "name": "Accept-Encoding",
+      "value": "identity"
+    }
+  ],
+  "authentication": {},
+  "preRequestScript": "// También se deshabilitan envío/almacenamiento de cookies en cada request.\ninsomnia.request.removeHeader('Authorization');\ninsomnia.request.removeHeader('Cookie');\ninsomnia.request.removeHeader('Proxy-Authorization');\n",
+  "metaSortKey": 8,
+  "isPrivate": false,
+  "pathParameters": [],
+  "afterResponseScript": "// Instrumentación de evidencia; los tests aprobados NO certifican cumplimiento A01.\nconst status = Number(insomnia.response.code);\nconst contentType = (insomnia.response.headers.find(h => String(h.key).toLowerCase() === 'content-type')?.value || '').toLowerCase();\nconst body = insomnia.response.text();\nconst html = contentType.includes('text/html') || /^\\s*(<!doctype\\s+html|<html\\b)/i.test(body);\nconst sha256 = require('crypto-js').SHA256(body).toString();\nlet result = 'Otra respuesta; no concluyente';\nif (status === 401) result = 'Bloqueo HTTP: no autenticado';\nelse if (status === 403) result = 'Bloqueo HTTP: acceso denegado';\nelse if (status >= 300 && status < 400) result = 'Redireccion sin seguir; no concluyente';\nelse if (status === 404) result = 'No encontrado u ocultado; no concluyente';\nelse if (status === 405) result = 'GET no permitido; no concluyente';\nelse if (status >= 200 && status < 300 && html) result = 'HTML: comparar con controles; no concluyente para A01';\nelse if (status >= 200 && status < 300) result = 'REVISAR: exito no HTML; validar sensibilidad y permisos';\n\nconsole.log('A01 EVIDENCIA', JSON.stringify({fecha: new Date().toISOString(), status, contentType, caracteres: body.length, html, sha256, result}));\ninsomnia.test('Instrumentacion: estado HTTP final valido (no certifica A01)', () => {\n  insomnia.expect(Number.isInteger(status) && status >= 200 && status <= 599).to.eql(true);\n});\ninsomnia.test('Instrumentacion: Content-Type recibido', () => {\n  insomnia.expect(contentType.length).to.be.above(0);\n});\ninsomnia.test('Instrumentacion: cuerpo recibido y huella SHA-256 calculada', () => {\n  insomnia.expect(body.length).to.be.above(0);\n  insomnia.expect(sha256).to.match(/^[a-f0-9]{64}$/);\n});\ninsomnia.test('Observacion: ' + result, () => {\n  insomnia.expect(result).to.be.a('string');\n});\n",
+  "settingStoreCookies": false,
+  "settingSendCookies": false,
+  "settingDisableRenderRequestBody": false,
+  "settingEncodeUrl": true,
+  "settingRebuildPath": true,
+  "settingFollowRedirects": "off",
+  "konnectRouteKey": null
+}

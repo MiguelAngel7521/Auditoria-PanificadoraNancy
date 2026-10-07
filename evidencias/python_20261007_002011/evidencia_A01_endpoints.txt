@@ -1,0 +1,39 @@
+OWASP A01:2025 — Evidencia de ejecución real con Python Requests
+Destino: https://www.panificadoranancy.com
+Fecha: 2026-10-07T00:20:34-04:00
+GET anónimo; sin Authorization, Cookie o .netrc; redirecciones desactivadas; TLS validado.
+
+CTRL-01 | / | HTTP 200 | text/html | 7541 bytes | HTML idéntico a raíz y control inexistente; no concluyente para A01
+SHA-256: 190646cf684af636c9eac7ea7ffbf2c76986f1d689146c6ff7fd15d8866584a7
+CTRL-02 | /__a01_control_inexistente_20261007_7e6a12 | HTTP 200 | text/html | 7541 bytes | HTML idéntico a raíz y control inexistente; no concluyente para A01
+SHA-256: 190646cf684af636c9eac7ea7ffbf2c76986f1d689146c6ff7fd15d8866584a7
+A01-01 | /pedidos | HTTP 200 | text/html | 7541 bytes | HTML idéntico a raíz y control inexistente; no concluyente para A01
+SHA-256: 190646cf684af636c9eac7ea7ffbf2c76986f1d689146c6ff7fd15d8866584a7
+A01-02 | /mis-pedidos | HTTP 200 | text/html | 7541 bytes | HTML idéntico a raíz y control inexistente; no concluyente para A01
+SHA-256: 190646cf684af636c9eac7ea7ffbf2c76986f1d689146c6ff7fd15d8866584a7
+A01-03 | /admin | HTTP 200 | text/html | 7541 bytes | HTML idéntico a raíz y control inexistente; no concluyente para A01
+SHA-256: 190646cf684af636c9eac7ea7ffbf2c76986f1d689146c6ff7fd15d8866584a7
+A01-04 | /admin/usuarios | HTTP 200 | text/html | 7541 bytes | HTML idéntico a raíz y control inexistente; no concluyente para A01
+SHA-256: 190646cf684af636c9eac7ea7ffbf2c76986f1d689146c6ff7fd15d8866584a7
+A01-05 | /admin/clientes | HTTP 200 | text/html | 7541 bytes | HTML idéntico a raíz y control inexistente; no concluyente para A01
+SHA-256: 190646cf684af636c9eac7ea7ffbf2c76986f1d689146c6ff7fd15d8866584a7
+A01-06 | /admin/productos | HTTP 200 | text/html | 7541 bytes | HTML idéntico a raíz y control inexistente; no concluyente para A01
+SHA-256: 190646cf684af636c9eac7ea7ffbf2c76986f1d689146c6ff7fd15d8866584a7
+A01-07 | /admin/pedidos | HTTP 200 | text/html | 7541 bytes | HTML idéntico a raíz y control inexistente; no concluyente para A01
+SHA-256: 190646cf684af636c9eac7ea7ffbf2c76986f1d689146c6ff7fd15d8866584a7
+A01-08 | /admin/categorias | HTTP 200 | text/html | 7541 bytes | HTML idéntico a raíz y control inexistente; no concluyente para A01
+SHA-256: 190646cf684af636c9eac7ea7ffbf2c76986f1d689146c6ff7fd15d8866584a7
+A01-09 | /inventario | HTTP 200 | text/html | 7541 bytes | HTML idéntico a raíz y control inexistente; no concluyente para A01
+SHA-256: 190646cf684af636c9eac7ea7ffbf2c76986f1d689146c6ff7fd15d8866584a7
+A01-10 | /inventario/materias-primas | HTTP 200 | text/html | 7541 bytes | HTML idéntico a raíz y control inexistente; no concluyente para A01
+SHA-256: 190646cf684af636c9eac7ea7ffbf2c76986f1d689146c6ff7fd15d8866584a7
+A01-11 | /inventario/producciones | HTTP 200 | text/html | 7541 bytes | HTML idéntico a raíz y control inexistente; no concluyente para A01
+SHA-256: 190646cf684af636c9eac7ea7ffbf2c76986f1d689146c6ff7fd15d8866584a7
+A01-12 | /inventario/movimientos-caja | HTTP 200 | text/html | 7541 bytes | HTML idéntico a raíz y control inexistente; no concluyente para A01
+SHA-256: 190646cf684af636c9eac7ea7ffbf2c76986f1d689146c6ff7fd15d8866584a7
+A01-13 | /user | HTTP 200 | text/html | 7541 bytes | HTML idéntico a raíz y control inexistente; no concluyente para A01
+SHA-256: 190646cf684af636c9eac7ea7ffbf2c76986f1d689146c6ff7fd15d8866584a7
+A01-14 | /me | HTTP 200 | text/html | 7541 bytes | HTML idéntico a raíz y control inexistente; no concluyente para A01
+SHA-256: 190646cf684af636c9eac7ea7ffbf2c76986f1d689146c6ff7fd15d8866584a7
+A01-15 | /profile | HTTP 200 | text/html | 7541 bytes | HTML idéntico a raíz y control inexistente; no concluyente para A01
+SHA-256: 190646cf684af636c9eac7ea7ffbf2c76986f1d689146c6ff7fd15d8866584a7

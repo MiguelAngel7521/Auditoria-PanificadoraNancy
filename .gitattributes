@@ -1,0 +1,8 @@
+* text=auto eol=lf
+
+# Conservar los bytes de las evidencias y los archivos entregables.
+evidencias/** -text
+capturas/** -text
+*.pdf -text
+*.docx -text
+*.zip -text

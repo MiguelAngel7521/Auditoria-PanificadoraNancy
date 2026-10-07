@@ -1,0 +1,6 @@
+51 capturas: PNG presentes, hashes verificados y URL correspondiente en cada vista.
+17 solicitudes Insomnia: GET real sin Authorization ni Cookie, redirecciones y cookies desactivadas.
+34 cuerpos reales: iguales byte a byte entre Python, Insomnia, raíz, control y las 15 rutas; 7.541 bytes.
+68 aserciones de instrumentación aprobadas; no se interpretan como aprobación del control de acceso.
+Informe PDF: 11 páginas, sin páginas vacías, con 6 páginas de evidencia en orientación horizontal.
+Informe DOCX y PDF presentes; pendientes de cuentas e IDOR declarados expresamente.

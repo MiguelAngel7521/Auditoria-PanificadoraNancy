@@ -1,0 +1,120 @@
+{
+  "_id": "res_9e46f8dc5bab4b98b8a63f205ca12d37",
+  "type": "Response",
+  "parentId": "req_bbb747d73606408eb2384022064824bd",
+  "modified": 1791347015960,
+  "created": 1791347015960,
+  "statusCode": 200,
+  "statusMessage": "",
+  "httpVersion": "HTTP/2",
+  "contentType": "text/html",
+  "url": "https://www.panificadoranancy.com/mis-pedidos",
+  "bytesRead": 7541,
+  "bytesContent": 7541,
+  "elapsedTime": 589.466,
+  "headers": [
+    {
+      "name": "content-type",
+      "value": "text/html"
+    },
+    {
+      "name": "last-modified",
+      "value": "Tue, 06 Oct 2026 19:04:19 GMT"
+    },
+    {
+      "name": "etag",
+      "value": "\"1d75-6ac54633-28be929c8a906383;;;\""
+    },
+    {
+      "name": "accept-ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "content-length",
+      "value": "7541"
+    },
+    {
+      "name": "date",
+      "value": "Wed, 07 Oct 2026 04:23:35 GMT"
+    },
+    {
+      "name": "server",
+      "value": "LiteSpeed"
+    },
+    {
+      "name": "platform",
+      "value": "hostinger"
+    },
+    {
+      "name": "panel",
+      "value": "hpanel"
+    },
+    {
+      "name": "content-security-policy",
+      "value": "default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob: https:; connect-src 'self'; frame-src https://www.google.com; frame-ancestors 'self'; base-uri 'self'; form-action 'self'; object-src 'none'; upgrade-insecure-requests"
+    },
+    {
+      "name": "x-content-type-options",
+      "value": "nosniff"
+    },
+    {
+      "name": "x-frame-options",
+      "value": "SAMEORIGIN"
+    },
+    {
+      "name": "referrer-policy",
+      "value": "strict-origin-when-cross-origin"
+    },
+    {
+      "name": "permissions-policy",
+      "value": "camera=(), microphone=(), payment=(), geolocation=(self)"
+    },
+    {
+      "name": "strict-transport-security",
+      "value": "max-age=31536000"
+    },
+    {
+      "name": "cache-control",
+      "value": "no-cache"
+    },
+    {
+      "name": "alt-svc",
+      "value": "h3=\":443\"; ma=2592000, h3-29=\":443\"; ma=2592000"
+    }
+  ],
+  "timelinePath": "/home/angel77/Universidad/02_2026/Ingenieria de Sistema/AUDITORÍA DE SISTEMAS/Auditoria-panificadoraNancy/.insomnia-a01/responses/res_9e46f8dc5bab4b98b8a63f205ca12d37.timeline",
+  "bodyPath": "/home/angel77/Universidad/02_2026/Ingenieria de Sistema/AUDITORÍA DE SISTEMAS/Auditoria-panificadoraNancy/.insomnia-a01/responses/fe2a28c1-8681-4d33-b25c-22abeaa8f618.response",
+  "bodyCompression": null,
+  "error": "",
+  "requestVersionId": "rvr_bdd813698fea43b48389847f99e01e99",
+  "settingStoreCookies": false,
+  "settingSendCookies": false,
+  "environmentId": "env_99d30891da4bdcebc63947a8fc17f076de878684",
+  "requestTestResults": [
+    {
+      "testCase": "Instrumentacion: estado HTTP final valido (no certifica A01)",
+      "status": "passed",
+      "executionTime": 0.599999999627471,
+      "category": "after-response"
+    },
+    {
+      "testCase": "Instrumentacion: Content-Type recibido",
+      "status": "passed",
+      "executionTime": 0.2999999988824129,
+      "category": "after-response"
+    },
+    {
+      "testCase": "Instrumentacion: cuerpo recibido y huella SHA-256 calculada",
+      "status": "passed",
+      "executionTime": 0.19999999925494194,
+      "category": "after-response"
+    },
+    {
+      "testCase": "Observacion: HTML: comparar con controles; no concluyente para A01",
+      "status": "passed",
+      "executionTime": 0.09999999962747097,
+      "category": "after-response"
+    }
+  ],
+  "globalEnvironmentId": null
+}
